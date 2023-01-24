@@ -1,0 +1,13 @@
+
+```{r}
+library(tidyverse)
+```
+``` {r}
+mydata <- Thermometer_calibration
+
+mydata %>% 
+  ggplot(mapping=aes(x=mm, y=TempºC)+
+           geom_point()
+      
+  )
+```
